@@ -8,31 +8,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="image-container">
+    <div class="img-container">
         <img src="./resources/unsplashImage.avif" alt="texture background">
     </div>
     <div class="webpage-container">
-        <div class="header">This isn't really a</div>
+        <div class="header">This is me trying to make a form. Perhaps it might work, perhaps it might not, either way i can safely say youre signing up for something "good". Good Luck </div>
         <div class="form-container">
             <legend>Let's do this!</legend>
-            <form>
+            <form action="" method="POST" >
+                <div>
                 <label for="firstName">First name</label>
                 <input type="text" name="firstName" id="firstName">
+                </div>
 
+                <div>
                 <label for="lastName">Last name</label>
                 <input type="text" name="lastName" id="lastName">
+                </div>
                 
+                <div>
                 <label for="email">Email address</label>
                 <input type="email" name="email" id="email">
+                </div>
 
+                <div>
                 <label for="phone">Phone number</label>
-                <input type="number" name="phone" id="phone">
+                <input type="tel" name="phone" id="phone">
+                </div>
 
+                <div>
                 <label for="pw">Password</label>
                 <input type="password" name="pw" id="pw">
+                </div>
 
+                <div>
                 <label for="confirm-pw">Confirm password</label>
                 <input type="password" name="confirm-pw" id="confirm-pw">
+                </div>  
+                
+                <input type="submit" value="Create Account">
             </form>
         </div>
         <div class="create-acc"></div>
