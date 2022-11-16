@@ -1,17 +1,14 @@
 * {
   font-family: "Norse-Bold", sans-serif;
-  color: var(--rich-black-fogra-39);
+  color: var(--dark-slate-gray);
 }
 
 :root {
-  --prussian-blue: #0f3044ff;
-  --eerie-black: #111616ff;
-  --rhythm: #6d748cff;
-  --blue-sapphire: #0a5f86ff;
-  --rich-black-fogra-39: #0e1010ff;
-  --old-rose: #b4777fff;
-  --raisin-black: #1f1c1fff;
-  --charleston-green: #152027ff;
+  --black: #040303ff;
+  --dark-slate-gray: #3a4e48ff;
+  --xanadu: #6a7b76ff;
+  --artichoke: #8b9d83ff;
+  --pale-silver: #beb0a7ff;
 }
 body {
   display: flex;
@@ -19,7 +16,7 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  background-color: var(--eerie-black);
+  background-color: var(--pale-silver);
 }
 .img-container {
   position: relative;
@@ -109,14 +106,14 @@ legend {
   height: 23px;
   border-radius: 5px;
   box-shadow: none;
-  border: grey 1px solid;
+  border: var(--black) 1px solid;
 }
 
 button {
   width: 25%;
   height: 40px;
-  background-color: #fafafa;
-  border: 1px solid #f2f2f2;
+  background-color: var(--artichoke);
+  border: 1px solid var(--black);
   border-radius: 5px;
   font-size: 20px;
   font-weight: lighter;
