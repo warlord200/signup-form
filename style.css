@@ -1,6 +1,6 @@
 * {
   font-family: "Norse-Bold", sans-serif;
-  color: var(--dark-slate-gray);
+  color: var(--rhythm);
 }
 
 :root {
@@ -9,6 +9,16 @@
   --xanadu: #6a7b76ff;
   --artichoke: #8b9d83ff;
   --pale-silver: #beb0a7ff;
+  --cg-blue: #387496ff;
+  --eerie-black: #151818ff;
+  --eerie-black-2: #16191bff;
+  --rich-black-fogra-29: #10171aff;
+  --charcoal: #313f51ff;
+  --rich-black-fogra-39: #090e0eff;
+  --rhythm: #6d748cff;
+  --blue-sapphire: #0a5f86ff;
+  --rich-black-fogra-39-2: #0e1010ff;
+  --eerie-black-3: #101315ff;
 }
 body {
   display: flex;
@@ -16,7 +26,7 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  background-color: var(--pale-silver);
+  background-color: var(--rich-black-fogra-39);
 }
 .img-container {
   position: relative;
@@ -41,6 +51,11 @@ body {
   object-fit: cover;
   filter: brightness(1000%);
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.coffee:hover {
+  opacity: 0.5;
 }
 
 .img-container div {
@@ -106,13 +121,14 @@ legend {
   height: 23px;
   border-radius: 5px;
   box-shadow: none;
-  border: var(--black) 1px solid;
+  border: var(--rhythm) 1px solid;
+  padding: 5px;
 }
 
 button {
   width: 25%;
   height: 40px;
-  background-color: var(--artichoke);
+  background-color: var(--eerie-black-2);
   border: 1px solid var(--black);
   border-radius: 5px;
   font-size: 20px;
@@ -121,7 +137,12 @@ button {
   margin-bottom: 10px;
 }
 
+button:hover {
+  background-color: var(--rhythm);
+  color: var(--eerie-black-3);
+}
+
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--blue-sapphire);
 }
